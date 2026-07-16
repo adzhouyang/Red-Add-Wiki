@@ -1,0 +1,7 @@
+interface:
+  display_name: "Red Add Wiki"
+  short_description: "将最近对话知识点写入指定飞书 Wiki"
+  default_prompt: "使用 $red-addwiki，把当前最近一次对话中的一个可复用知识点记录到指定飞书 Wiki。"
+
+policy:
+  allow_implicit_invocation: false
